@@ -1,6 +1,17 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
+.table {
+  th.thumb-header {
+    width: 60px;
+  }
+  tbody tr td {
+    vertical-align: middle;
+  }
+}
+
+
+
 #error_explanation {
   width: 450px;
   border: 2px solid red;
